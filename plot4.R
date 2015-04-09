@@ -12,7 +12,7 @@ names(data)
 head(data)
 class(data$DateTime)
 
-png(filename="plot4.png", width=504, height=504)
+png(filename="plot4.png", width=480, height=480)
 par(bg="white", fg="black", mfrow=c(2,2))
 
 with(data, plot(DateTime, Global_active_power, type="l", main=""

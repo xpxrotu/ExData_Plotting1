@@ -10,7 +10,7 @@ data$Date <- as.Date(data$Date, "%d/%m/%Y")
 data$Time <- strptime(data$Time, "%H:%M:%S")
 head(data)
 
-png(filename="plot1.png", width=504, height=504)
+png(filename="plot1.png", width=480, height=480)
 par(bg="white", fg="black")
 hist(data$Global_active_power, main="Global Active Power", col="red",
      xlab="Global Active Power (kilowatts)")

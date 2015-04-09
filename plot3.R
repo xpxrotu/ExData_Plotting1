@@ -13,7 +13,7 @@ names(data)
 head(data)
 class(data$DateTime)
 
-png(filename="plot3.png", width=504, height=504)
+png(filename="plot3.png", width=480, height=480)
 par(bg="white", fg="black")
 with(data, {
     plot(DateTime, Sub_metering_1, type="l", main=""
