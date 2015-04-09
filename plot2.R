@@ -1,6 +1,6 @@
 # plot 2
 
-# the file below is cleaned up
+# the file below is cleaned up, only dates that interest us
 data <- read.csv("data/hpc.txt", sep=";", header=TRUE,
                  na.strings=c("?"),
                  colClasses=c("character", "character", "numeric", "numeric", "numeric", "numeric",
