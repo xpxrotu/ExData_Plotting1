@@ -7,7 +7,7 @@ data <- read.csv("data/hpc.txt", sep=";", header=TRUE,
                               "numeric", "numeric", "numeric"))
 
 names(data)
-data$Date <- as.Date(data$Date, "%m/%d/%Y")
+data$Date <- as.Date(data$Date, "%d/%m/%Y")
 data$Time <- strptime(data$Time, "%H:%M:%S")
 head(data)
 
